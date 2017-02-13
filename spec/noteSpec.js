@@ -1,4 +1,4 @@
-function testNoteContent() {
+function noteTest() {
   var note = new Note('Even more JavaScript than before!');
 
   if (note.content() !== 'Even more JavaScript than before!') {
@@ -8,4 +8,4 @@ function testNoteContent() {
   }
 }
 
-testNoteContent();
+noteTest();
