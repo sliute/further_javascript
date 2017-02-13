@@ -4,7 +4,7 @@ function testNoteContent() {
   if (note.content() !== 'Even more JavaScript than before!') {
     throw new Error('No cookies for you today!');
   } else {
-    console.log('It worked, yo!')
+    console.log('Note content function functions')
   }
 }
 
